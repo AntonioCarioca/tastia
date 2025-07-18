@@ -1,0 +1,31 @@
+:root {
+    /* Paleta personalizada */
+    --color-laranja-queimado: #da4a16;
+    --color-laranja-vibrante: #e97f37;
+    --color-bege-claro: #e9e1cc;
+    --color-marrom-escuro: #3a2813;
+    --color-verde-oliva: #7c9440;
+    --color-amarelo-mostarda: #dcbd41;
+    --color-verde-musgo: #476021;
+    --color-vermelho-tomate: #d33f35;
+
+    /* Aplicações principais */
+    --color-background: var(--color-bege-claro);
+    --color-header: var(--color-verde-oliva);
+    --color-footer: var(--color-verde-oliva);
+    --placeholder-color: var(--color-vermelho-tomate);
+    --link-hover: rgba(255, 255, 255, 0.2);
+    --label-color:  var(--color-verde-musgo);
+
+    /* Botões */
+    --color-button: var(--color-laranja-queimado);
+    --color-button-text: var(--color-bege-claro);
+    --color-button-hover: var(--color-laranja-vibrante);
+
+    /* Texto */
+    --font-main: 'Merriweather', sans-serif;
+    --text-main-color: var(--color-bege-claro);
+    --title-color: var(--color-marrom-escuro);
+    --subtitle-color: var(--color-verde-oliva);
+    --text-color: var(--color-vermelho-tomate);
+}
