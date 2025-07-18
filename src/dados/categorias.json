@@ -1,0 +1,17 @@
+[
+  {
+    "id": "bolos",
+    "nome": "Bolos",
+    "image": "/imgs/categorias/default.jpg"
+  },
+  {
+    "id": "salgados",
+    "nome": "Salgados",
+    "image": "/imgs/categorias/default.jpg"
+  },
+  {
+    "id": "saladas",
+    "nome": "Saladas",
+    "image": "/imgs/categorias/default.jpg"
+  }
+]

@@ -1,0 +1,62 @@
+[
+{
+    "title": "Bolo de Cenoura",
+    "description": "Um clássico fofinho com cobertura de chocolate.",
+    "category": "Bolos",
+    "image": "/imgs/receitas/default.jpg",
+    "ingredients": [
+        "3 cenouras médias picadas",
+        "4 ovos",
+        "1 xícara de óleo",
+        "2 xícaras de açúcar",
+        "2 e 1/2 xícaras de farinha de trigo",
+        "1 colher (sopa) de fermento"
+    ],
+    "steps": [
+        "Bata no liquidificador as cenouras, os ovos e o óleo.",
+        "Adicione o açúcar e bata novamente.",
+        "Despeje em uma tigela e misture a farinha peneirada.",
+        "Acrescente o fermento e misture delicadamente.",
+        "Leve ao forno pré-aquecido a 180°C por 40 minutos."
+    ]
+},
+{
+    "title": "Estrogonofe de Frango",
+    "description": "Delicioso estrogonofe com creme de leite e batata palha.",
+    "category": "Carnes",
+    "image": "/imgs/receitas/default.jpg",
+    "ingredients": [
+        "500g de peito de frango cortado em cubos",
+        "1 cebola picada",
+        "2 colheres de ketchup",
+        "1 colher de mostarda",
+        "1 lata de creme de leite",
+        "Sal e pimenta a gosto"
+    ],
+    "steps": [
+        "Refogue a cebola com o frango até dourar.",
+        "Adicione ketchup, mostarda e tempere.",
+        "Cozinhe por alguns minutos.",
+        "Desligue o fogo e misture o creme de leite.",
+        "Sirva com arroz branco e batata palha."
+    ]
+},
+{
+    "title": "Salada Tropical",
+    "description": "Leve, refrescante e perfeita para o verão.",
+    "category": "Saladas",
+    "image": "/imgs/receitas/default.jpg",
+    "ingredients": [
+        "Folhas verdes (alface, rúcula)",
+        "1 manga em cubos",
+        "1/2 xícara de nozes picadas",
+        "1/2 xícara de uvas cortadas ao meio",
+        "Molho de iogurte com mel"
+    ],
+    "steps": [
+        "Higienize bem as folhas.",
+        "Corte as frutas e misture com as folhas.",
+        "Adicione as nozes por cima.",
+        "Regue com o molho antes de servir."
+    ]
+}]
