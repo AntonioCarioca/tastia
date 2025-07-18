@@ -1,0 +1,46 @@
+.recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.recipe-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease;
+}
+
+.recipe-card:hover {
+    transform: scale(1.02);
+}
+
+.recipe-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.recipe-card h2 {
+    margin: 1rem;
+    font-size: 1.2rem;
+    color: var(--title-color);
+}
+
+.recipe-card p {
+    margin: 0 1rem 1rem;
+    font-size: 0.9rem;
+    color: var(--color-vermelho-tomate);
+}
+
+.recipe-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.recipe-detail {
+    padding: 0rem 1rem;
+}
