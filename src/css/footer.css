@@ -1,0 +1,8 @@
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: var(--color-footer);
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: var(--text-main-color);
+}

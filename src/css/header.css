@@ -1,0 +1,84 @@
+header {
+    background-color: var(--color-header);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--text-main-color);
+    line-height: 1;
+    gap: 0.5rem;
+}
+
+.logo-img {
+    height: 62px;
+    width: auto;
+}
+
+.logo-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.header-right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#searchInput {
+    color: var(--placeholder-color);
+    font-weight: bold;
+    padding: 0.5rem;
+    width: 250px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+#searchInput::placeholder {
+    color: var(--placeholder-color);
+}
+
+#btnUltima {
+    background-color: var(--color-button);
+    color: var(--color-button-text);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#btnUltima:hover {
+    background-color: var(--color-button-hover);
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--text-main-color);
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 5px;
+    transition: background 0.2s;
+}
+
+.nav-link:hover {
+    background: var(--link-hover);
+}
