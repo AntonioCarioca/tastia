@@ -1,0 +1,37 @@
+@media (max-width: 900px) {
+    .recipe-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .recipe-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header-content,
+    .header-right
+     {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .nav-link {
+         width: 28.5%;
+         text-align: center;
+    }
+
+    #searchInput,
+    #btnUltima
+     {
+        width: 100%;
+        max-width: none;
+    }
+}
