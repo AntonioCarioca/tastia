@@ -36,7 +36,7 @@ export function renderContato() {
     form.addEventListener("submit", function(e) {
         e.preventDefault();
 
-        emailjs.sendForm("service_gwws453", "template_7k5nvjg", form)
+        emailjs.sendForm("SEU_SERVICE_ID", "SEU_TEMPLATE_ID", form)
             .then(function() {
                 document.getElementById("mensagemStatus").innerHTML = `
                     <p style="color: green;">Mensagem enviada com sucesso!</p>
